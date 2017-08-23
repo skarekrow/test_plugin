@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 fetch http://www.tolisgroup.com/downloads/bruserver20/complete/BRU_Server_Complete_freebsd11_2.0.5foo.tgz
 tar xvfz BRU_Server_Complete_freebsd11_2.0.5.tgz
 mkdir -p /usr/local/bru-server
